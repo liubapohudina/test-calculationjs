@@ -112,3 +112,5 @@ console.log('The biggest number:', maxNumber(arrOfNumbers));
 console.log('The smallest number:', minNumber(arrOfNumbers));
 console.log('The median:', getMedian(arrOfNumbers));
 console.log('The average of numbers:', getAverageNumber(arrOfNumbers));
+/*----------джерела якими користувалась-----------*/
+// google, chatGPt
