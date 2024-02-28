@@ -80,7 +80,7 @@ function findIncreasingSequenceBigValue(arr) {
     }
     increasingSequence.push(currentNumb);
     let longestSequence = increasingSequence.reduce((acc, elem) => elem.length > acc.length ? elem : acc, [])
-    console.log(`The increasing sequence has length: ${longestSequence.length} `)
+    console.log(`The increasing sequence of numbers rising has length: ${longestSequence.length} `)
     return longestSequence.length;
 }
 
@@ -101,7 +101,7 @@ function findIncreasingSequenceSmallValue(arr) {
     }
     increasingSequence.push(currentNumb);
     let longestSequence = increasingSequence.reduce((acc, elem) => elem.length > acc.length ? elem : acc, [])
-    console.log(`The increasing sequence has length: ${longestSequence.length}`)
+    console.log(`The increasing sequence of descending numbers has length: ${longestSequence.length}`)
     return longestSequence.length;
 }
 
